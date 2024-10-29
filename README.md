@@ -3,7 +3,7 @@ Este repositório contém um projeto fictício para o Departamento de Engenharia
 
 ### Montagem no TinkerCad
 <div align="center">
-    <img src="assets/semaforoarduino1.png" alt="Imagem do Arduino 1" width="1000"/>
+    <img src="assets/semaforoarduino1.jpg" alt="Imagem do Arduino 1" width="1000"/>
     <br>
     <sup>Imagem do Arduino 1 - Fonte: TinkerCAD</sup>
 </div>
