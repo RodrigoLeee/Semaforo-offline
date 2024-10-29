@@ -22,34 +22,59 @@ Aqui está o código:
 int ledVerde = 9;
 int ledAmarelo = 6;
 int ledVermelho = 3;
+int ldrPin = A5; // Pino do sensor LDR
 
 void setup() {
-  // Configura os pinos como saída
+  // Inicia a comunicação serial e configura os pinos dos LEDs como saída
+  Serial.begin(9600);
   pinMode(ledVerde, OUTPUT);
   pinMode(ledAmarelo, OUTPUT);
   pinMode(ledVermelho, OUTPUT);
+  //pinMode(ldrPin, INPUT);
 }
 
 void loop() {
-   // Liga o LED vermelho e espera 6 segundos
-  digitalWrite(ledVermelho, HIGH);
-  delay(6000);
-  digitalWrite(ledVermelho, LOW);
-  
-  // Liga o LED amarelo e espera 2 segundos
-  digitalWrite(ledAmarelo, HIGH);
-  delay(2000);
-  digitalWrite(ledAmarelo, LOW);
-  
-  // Liga o LED verde e espera 4 segundos
-  digitalWrite(ledVerde, HIGH);
-  delay(4000);
-  digitalWrite(ledVerde, LOW);
+  // Leitura do valor do sensor LDR
+  int LDR = analogRead(ldrPin);
+  Serial.print("Luminosidade: ");
+  Serial.println(LDR);
 
-  // Liga o LED amarelo e espera 2 segundos
-  digitalWrite(ledAmarelo, HIGH);
-  delay(2000);
-  digitalWrite(ledAmarelo, LOW);
+  if (LDR > 200) {
+    // Quando a luminosidade está baixa, executa a sequência do semáforo
+    digitalWrite(ledVermelho, HIGH);
+    delay(1000);
+    digitalWrite(ledVermelho, LOW);
+  
+    digitalWrite(ledAmarelo, HIGH);
+    delay(1000);
+    digitalWrite(ledAmarelo, LOW);
+
+    digitalWrite(ledVerde, HIGH);
+    delay(4000);
+    digitalWrite(ledVerde, LOW);
+
+    digitalWrite(ledAmarelo, HIGH);
+    delay(1000);
+    digitalWrite(ledAmarelo, LOW);
+
+  } else {
+    // Quando a luminosidade está alta, executa a sequência do semáforo
+    digitalWrite(ledVermelho, HIGH);
+    delay(6000);
+    digitalWrite(ledVermelho, LOW);
+  
+    digitalWrite(ledAmarelo, HIGH);
+    delay(2000);
+    digitalWrite(ledAmarelo, LOW);
+  
+    digitalWrite(ledVerde, HIGH);
+    delay(4000);
+    digitalWrite(ledVerde, LOW);
+
+    digitalWrite(ledAmarelo, HIGH);
+    delay(2000);
+    digitalWrite(ledAmarelo, LOW);
+  }
 }
 ```
 
