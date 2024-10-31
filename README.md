@@ -15,11 +15,15 @@ https://www.tinkercad.com/things/lElMNhOxEpK/editel?returnTo=%2Fdashboard&sharec
 
 ### Montagem Física
 **Demonstração da montagem com o fotorresistor exposto**
+
 https://github.com/user-attachments/assets/d7006ab1-b66e-425f-9853-2340c5c6c058
+
 <sup>Imagem do Arduino 1 - Fonte: TinkerCAD</sup>
 
 **Demonstração da montagem com o fotorresistor descoberto**
+
 https://github.com/user-attachments/assets/f988987d-2b96-448c-9bf1-91da3ae3b77e
+
 <sup>Imagem do Arduino 1 - Fonte: TinkerCAD</sup>
 
 ### Código
