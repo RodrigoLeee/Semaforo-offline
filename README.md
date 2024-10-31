@@ -10,21 +10,25 @@ https://www.tinkercad.com/things/lElMNhOxEpK/editel?returnTo=%2Fdashboard&sharec
 <div align="center">
     <img src="assets/semaforoarduino1.jpg" alt="Imagem do Arduino 1" width="1000"/>
     <br>
-    <sup>Imagem do Arduino 1 - Fonte: TinkerCAD</sup>
+    <sup>Imagem do Semáforo 1 - Fonte: TinkerCAD</sup>
 </div>
 
 ### Montagem Física
 **Demonstração da montagem com o fotorresistor exposto**
+<div align="center">
 
 https://github.com/user-attachments/assets/d7006ab1-b66e-425f-9853-2340c5c6c058
 
-<sup>Imagem do Arduino 1 - Fonte: TinkerCAD</sup>
+<sup>Vídeo do Semáforo 1 - Fonte: Material produzido pelos autores (2024) </sup>
+</div>
 
 **Demonstração da montagem com o fotorresistor descoberto**
+<div align="center">
 
 https://github.com/user-attachments/assets/f988987d-2b96-448c-9bf1-91da3ae3b77e
 
-<sup>Imagem do Arduino 1 - Fonte: TinkerCAD</sup>
+<sup>Vídeo do Semáforo 2 - Fonte: Material produzido pelos autores (2024)</sup>
+</div>
 
 ### Código
 Aqui está o código:
