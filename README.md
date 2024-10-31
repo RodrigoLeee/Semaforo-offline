@@ -13,13 +13,33 @@ https://www.tinkercad.com/things/lElMNhOxEpK/editel?returnTo=%2Fdashboard&sharec
     <sup>Imagem do Semáforo 1 - Fonte: TinkerCAD</sup>
 </div>
 
+### Componentes Utilizados
+**Tabela Lista de Componentes Utilizados (Bill of Material)**
+<div align="center">
+
+| Categoria             | Quantidade | Referência dos Componentes | Código do Componente | Valor dos Componentes | Fabricante                       | Unidade                | Descrição                            | Item # |
+| --------------------- | ---------- | -------------------------- | -------------------- | --------------------- | -------------------------------- | ---------------------- | ------------------------------------ | ------ |
+| Componente eletrônico | 1          | U1                         | A000066              | R$ 44,56              | [Arduino.cc](http://arduino.cc/) | 5V, Microcontrolador   | Microcontrolador, 5V, Arduino UNO R3 | 1      |
+| Componente eletrônico | 1          | D1                         | \-                   | R$ 0,15               | \-                               | 2V, 20mA, Diodo        | LED Vermelho, 2V, 20mA               | 2      |
+| Componente eletrônico | 1          | D1                         | \-                   | R$ 0,15               | \-                               | 2V, 20mA, Diodo        | LED Amarelo, 2V, 20mA                | 3      |
+| Componente eletrônico | 1          | D1                         | \-                   | R$ 0,15               | \-                               | 2V, 20mA, Diodo        | LED Verde, 2V, 20mA                  | 4      |
+| Componente eletrônico | 1          | LDR                        | \-                   | R$ 0,57               | \-                               | Fotorresistor          | Sensor de luminosidade, LDR          | 5      |
+| Componente eletrônico | 1          | R1                         | \-                   | R$ 0,06               | \-                               | 10kΩ, Filme de Carbono | Resistor, 10kΩ                       | 6      |
+| Componente eletrônico | 1          | R2                         | \-                   | R$ 0,06               | \-                               | 300Ω, Filme de Carbono | Resistor, 300Ω                       | 7      |
+| Componente eletrônico | 6          | J1                         |                      | R$ 0,25               | \-                               | Cabo de Conexão        | Cabo de Conexão, Jumper Fêmea-Fêmea  | 9      |
+| Componente eletrônico | 11         | J2                         | \-                   | R$ 0,29               | \-                               | Cabo de Conexão        | Cabo de Conexão, Jumper Macho-Macho  | 10     |
+
+
+  <sup>Tabela Componentes do Semáforo - Fonte: Material produzido pelos autores (2024)</sup>
+</div>
+
 ### Montagem Física
 **Demonstração da montagem com o fotorresistor exposto**
 <div align="center">
 
 https://github.com/user-attachments/assets/d7006ab1-b66e-425f-9853-2340c5c6c058
 
-<sup>Vídeo do Semáforo 1 - Fonte: Material produzido pelos autores (2024) </sup>
+<sup>Vídeo do Semáforo 1 - Fonte: Material produzido pelos autores (2024)</sup>
 </div>
 
 **Demonstração da montagem com o fotorresistor descoberto**
