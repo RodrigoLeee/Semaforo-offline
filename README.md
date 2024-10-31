@@ -33,7 +33,14 @@ https://www.tinkercad.com/things/lElMNhOxEpK/editel?returnTo=%2Fdashboard&sharec
   <sup>Tabela Componentes do Semáforo - Fonte: Material produzido pelos autores (2024)</sup>
 </div>
 
-### Montagem Física
+### Montagem Física Imagem
+<div align="center">
+    <img src="assets/semaforofisico1.jpeg" alt="Imagem do Arduino 1" width="1000"/>
+    <br>
+    <sup>Imagem do Semáforo física - Fonte: Material produzido pelos autores (2024)</sup>
+</div>
+
+### Montagem Física Vídeos
 **Demonstração da montagem com o fotorresistor exposto**
 <div align="center">
 
@@ -114,8 +121,24 @@ void loop() {
 
 ```
 
-### Testando Protótipo (Vídeo)
+### Avaliação de Pares
+
+**Avaliador(a): Heitor de Faria Candido**
+| Critério                                                                                                            | Contempla (Pontos) | Contempla Parcialmente (Pontos) | Não Contempla (Pontos) | Observações do Avaliador |
+| ------------------------------------------------------------------------------------------------------------------- | ------------------ | ------------------------------- | ---------------------- | ------------------------ |
+| Montagem física com cores corretas, boa disposição dos fios e uso adequado de resistores                            | Até 3              | Até 1,5                         | 0                      | 3                        |
+| Temporização adequada conforme tempos medidos com auxílio de algum instrumento externo                              | Até 3              | Até 1,5                         | 0                      | 3                        |
+| Código implementa corretamente as fases do semáforo e estrutura do código (variáveis representativas e comentários) | Até 3              | Até 1,5                         | 0                      | 3                        |
+| Extra: Implmeentou um componente de liga/desliga no semáforo e/ou usou ponteiros no código                          | Até 1              | Até 0,5                         | 0                      | 1                        |
+|                                                                                                                     |                    |                                 | Pontuação Total        | 10                       |
 
 
 
-
+**Avaliador(a): Nataly de Souza Cunha**   
+| Critério                                                                                                            | Contempla (Pontos) | Contempla Parcialmente (Pontos) | Não Contempla (Pontos) | Observações do Avaliador |
+| ------------------------------------------------------------------------------------------------------------------- | ------------------ | ------------------------------- | ---------------------- | ------------------------ |
+| Montagem física com cores corretas, boa disposição dos fios e uso adequado de resistores                            | Até 3              | Até 1,5                         | 0                      | 3                        |
+| Temporização adequada conforme tempos medidos com auxílio de algum instrumento externo                              | Até 3              | Até 1,5                         | 0                      | 3                        |
+| Código implementa corretamente as fases do semáforo e estrutura do código (variáveis representativas e comentários) | Até 3              | Até 1,5                         | 0                      | 3                        |
+| Extra: Implmeentou um componente de liga/desliga no semáforo e/ou usou ponteiros no código                          | Até 1              | Até 0,5                         | 0                      | 1                        |
+|                                                                                                                     |                    |                                 | Pontuação Total        | 10                       |
