@@ -3,10 +3,13 @@
 
 &emsp;O componente liga/desliga implementado no semáforo foi um fotorresistor (LDR), que altera o tempo em que os LEDs ficam nas cores vermelha e amarela. O objetivo dessa adição ao circuito de um semáforo foi adaptar o sistema para uma quantidade menor de carros à noite. Ou seja, quando o sensor fotorresistor (LDR) recebe uma quantidade menor de luz, os LEDs amarelo e vermelho permanecem ligados por menos tempo durante o ciclo de repetição. Quando há mais luz, os LEDs vermelho e amarelo ficam ligados por uma duração maior no ciclo. Dessa forma, à noite, o semáforo permaneceria mais tempo na cor verde, permitindo que os carros passassem mais rapidamente.
 
+&emsp;Foi montado um circuito com duas principais seções em paralelo: os três LEDs e o fotorresistor (LDR). Na seção dos LEDs, os três LEDs estão em paralelo com apenas um resistor conectado ao lado negativo, já que a carga passa por apenas um LED por vez. Na seção do fotorresistor (LDR), o resistor está conectado com o fotorresistor. Cada LED e o fotorresistor estão conectados a uma saída do Arduino. O fotorresistor utiliza uma saída de 5V. Tudo retorna para pelo menos uma entrada GND do Arduino.
+
 ### 1. Link Para Montagem no TinkerCad
 https://www.tinkercad.com/things/lElMNhOxEpK/editel?returnTo=%2Fdashboard&sharecode=bZMrlL_730aEIuRvaHc0a3jeqbOX347LaeW4uB6D1BM
 
 ### 2. Montagem no TinkerCad
+&emsp;Montagem virtual do circuito realizada no Tinkercad.
 <div align="center">
     <img src="assets/semaforoarduino1.jpg" alt="Imagem do Arduino 1" width="1000"/>
     <br>
@@ -15,6 +18,8 @@ https://www.tinkercad.com/things/lElMNhOxEpK/editel?returnTo=%2Fdashboard&sharec
 
 ### 3. Componentes Utilizados
 **Tabela Lista de Componentes Utilizados (Bill of Material)**
+
+&emsp;Nesta seção, encontra-se a lista de componentes, ou Bill of Materials (BOM), com todos os itens necessários para a execução deste projeto:
 <div align="center">
 
 | Categoria             | Quantidade | Referência dos Componentes | Código do Componente | Valor dos Componentes | Fabricante                       | Unidade                | Descrição                            | Item # |
@@ -34,6 +39,8 @@ https://www.tinkercad.com/things/lElMNhOxEpK/editel?returnTo=%2Fdashboard&sharec
 </div>
 
 ### 4. Montagem Física Imagem
+&emsp;Abaixo encontra-se a imagem da montagem física do circuito, utilizando Arduino e os componentes listados na Bill of Materials (BOM):
+
 <div align="center">
     <img src="assets/semaforofisico1.jpeg" alt="Imagem do Arduino 1" width="1000"/>
     <br>
@@ -41,7 +48,10 @@ https://www.tinkercad.com/things/lElMNhOxEpK/editel?returnTo=%2Fdashboard&sharec
 </div>
 
 ### 5. Montagem Física Vídeos
-**Demonstração da montagem com o fotorresistor exposto**
+
+&emsp;Nesta seção, encontram-se dois vídeos: um demonstrando o circuito com o fotorresistor (LDR) coberto e outro com ele exposto.
+
+**Demonstração da montagem com o fotorresistor coberto**
 <div align="center">
 
 https://github.com/user-attachments/assets/d7006ab1-b66e-425f-9853-2340c5c6c058
@@ -49,7 +59,7 @@ https://github.com/user-attachments/assets/d7006ab1-b66e-425f-9853-2340c5c6c058
 <sup>Vídeo do Semáforo 1 - Fonte: Material produzido pelos autores (2024)</sup>
 </div>
 
-**Demonstração da montagem com o fotorresistor descoberto**
+**Demonstração da montagem com o fotorresistor exposto**
 <div align="center">
 
 https://github.com/user-attachments/assets/f988987d-2b96-448c-9bf1-91da3ae3b77e
@@ -122,6 +132,8 @@ void loop() {
 ```
 
 ### 7. Avaliação de Pares
+
+&emsp;Foram realizadas duas avaliações com pares, cujos resultados estão registrados aqui em forma de tabela:
 
 **Avaliador(a): Heitor de Faria Candido**
 | Critério                                                                                                            | Contempla (Pontos) | Contempla Parcialmente (Pontos) | Não Contempla (Pontos) | Observações do Avaliador |
